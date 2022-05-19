@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #25262C;
+    font-family: 'Lato', sans-serif;
+}
+header, footer{
+    width: inherit;
+    background: url('/img/border.png');
+    background-repeat: repeat-x;
+}
+header, .features, footer {
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+header, footer, .features h2{
+    color: #1ACAC8;
+    background-color: #25262C;
+    font-weight: 700;
+  }///
