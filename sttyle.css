@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #25262C;
+}
+html{
+    
+}
+header{
+    display: flex;
+    background-color: #2B2D33;
+    justify-content: space-between;  
+    height: 90px;
+    width: 100%;
+    padding: 50px 4% 38px 4%;
+}
+.logo-img{
+    position: absolute;
+}
+.logo h1{
+    display: block;
+    color: #00CCCC;
+    font-size: 3.6em;
+}
+.navi{
+    display: flex; 
+}
+.navi a{
+    color: #00CCCC;
+    font-size: 1em;
+}
+.navi a:hover{
+    color: white;
+}
+.navi a:active{
+    font-size: 1.1em;
+}
