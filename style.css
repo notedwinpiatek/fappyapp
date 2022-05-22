@@ -16,12 +16,8 @@ header{
     justify-content: space-between;
     background-color: #2B2D33;  
     align-items: center;
-    height: 70px;  
+    height: 80px;  
     width: 100%;    
-}
-.logo{
-   /* margin-left: 50px; */
-
 }
 .logoImg{
     background: url('/img/logo.png');
@@ -45,7 +41,7 @@ header{
     right: 30px;
 }
 .navBar{
-    margin-right: 50px;
+    margin-right: 45px;
 }
 .navBar li{
     display: inline-block;
@@ -53,10 +49,7 @@ header{
 }
 
 /* mein */
-main{
-    display: flex;
-    
-}
+
 .banner {
     height: 260px;
     /* width: 734px; */
@@ -81,6 +74,7 @@ main{
     line-height: 24px;
     margin: auto;
     border-top: solid 1px #2B2D33;
+
 }
 .lorem{
     font-size: 1.2em;
@@ -99,19 +93,10 @@ footer{
     justify-content: space-around;
 }
 .nav li{
-    height: 25px;
-}
-.nav1{
-      
-}
-.nav2{
-    
-}
-.nav3{
-    
+    line-height: 2em;
 }
 .copyright-text{
-    padding-top: 25px;
+    padding-top: 30px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -137,8 +122,32 @@ ul{
     }
     .menuIcon{
         color: #00CCCC;
-        width: ;
-        height: ;
+        margin-top: 5px;
+    }
+    .logo h1{
+        font-size: 2em;
+        margin-top: 2px;
+        margin-left: 95px;
+        display: block;
+    }
+    .logoImg{
+        margin: -8px 0 0 10px;
+    }
+    .nav2{
+        display: none;
+    }
+}
+/* tablet---------------- */
+@media only screen and (min-width: 751px) and (max-width: 1194px){
+    .menuIcon{
+        display: none;
+    }
+    
+    header h1{
+        font-size: 3.6em;
+    }
+    .logo{
+        margin-left: 25px;
     }
     .logo h1{
         margin-left: 95px;
@@ -150,10 +159,63 @@ ul{
     .logoImg{
         margin: 0 0 0 10px;
     }
-    .nav2{
+}
+@media only screen and (min-width: 1195px){
+    .logo{
+        margin-left: 50px;
+    }
+    .logo h1{
+        margin-top: 5px;
+        font-size: 3em;
+    }
+    .logo h1 span{
+        margin-left: 49px;
+    }
+    .menuIcon{
         display: none;
     }
-    .nav-ctnr{
-
+    .logoImg{
+        margin-left: 180px;
     }
+    .main{
+        margin: 50px 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .boner{
+        display: flex;
+        justify-content: space-between;
+    }
+    .lorem{
+        padding: 0;
+        margin-top: 30px;
+    }
+    .banner{
+        border: 3px solid black;
+        height: 260px;
+        width: 734px;
+    }
+    .features{
+        width: 320px;
+    }
+    .nav ul{
+        border-left: 1px solid #00CCCC;
+        padding-left: 30px;
+    }
+    .nav ul li{
+        line-height: 1em;
+    }
+    }
+    footer li a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: block;
+    }
+    .copyright-text {
+        color: #202227;
+        font-weight: 900;
+        display: block;
+        background-color: #1ACAC8;
+        padding: 10px 0;
+        margin: auto;
 }
