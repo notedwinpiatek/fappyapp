@@ -159,8 +159,18 @@ ul{
     .logoImg{
         margin: 0 0 0 10px;
     }
+    
+    .white{
+        color: #FFFFFF;
+    }
+    .yellow{
+        color: #FFFFFF;
+    }
 }
 @media only screen and (min-width: 1195px){
+    footer{
+        height: 50vh;
+    }
     .logo{
         margin-left: 50px;
     }
@@ -178,12 +188,13 @@ ul{
         margin-left: 180px;
     }
     .main{
-        margin: 50px 5%;
+        margin: 50px 10%;
         display: flex;
         flex-direction: column;
     }
     .boner{
         display: flex;
+        gap: 20px;
         justify-content: space-between;
     }
     .lorem{
@@ -194,17 +205,18 @@ ul{
         border: 3px solid black;
         height: 260px;
         width: 734px;
+        box-shadow: 5px 5px 5px;
     }
     .features{
         width: 320px;
+        box-shadow: 5px 5px 5px;
     }
     .nav ul{
-        border-left: 1px solid #00CCCC;
+        border-left: 3px solid #00CCCC;
         padding-left: 30px;
     }
     .nav ul li{
         line-height: 1em;
-    }
     }
     footer li a {
         padding-top: 8px;
@@ -215,7 +227,23 @@ ul{
         color: #202227;
         font-weight: 900;
         display: block;
-        background-color: #1ACAC8;
+        background-color: #00CCCC;
         padding: 10px 0;
         margin: auto;
+    }
+    .copyright-box{
+        height: 100px;
+        margin-top: 30px;
+    }
+    .navBar{
+        border-bottom: #00CCCC 3px solid;
+    }
+    .white{
+        color: #FFFFFF;
+        border-bottom: #FFFFFF 3px solid;
+        padding-bottom: 13px;
+    }
+    .yellow{
+        color: #FFFFFF;
+    }
 }
